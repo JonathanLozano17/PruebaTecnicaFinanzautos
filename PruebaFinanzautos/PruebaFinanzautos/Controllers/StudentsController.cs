@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using PruebaFinanzautos.DTOs;
 using PruebaFinanzautos.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -17,6 +18,7 @@ namespace PruebaFinanzautos.Controllers
         {
             _connectionString = configuration.GetConnectionString("Connection");
         }
+
 
         // GET: api/students
         [HttpGet]
@@ -49,6 +51,7 @@ namespace PruebaFinanzautos.Controllers
             }
             return students;
         }
+
 
         // GET: api/students/5
         [HttpGet("{id}")]
@@ -87,10 +90,25 @@ namespace PruebaFinanzautos.Controllers
             return student;
         }
 
+
         // POST: api/students
         [HttpPost]
-        public async Task<ActionResult<Student>> Post([FromBody] Student student)
+        public async Task<ActionResult<Student>> Post([FromBody] StudentDto studentDto)
         {
+
+
+            Student student = new()
+            {
+                StudentsId = studentDto.StudentsId,
+                FirstName = studentDto.FirstName,
+                LastName = studentDto.LastName,
+                DateOfBirth = studentDto.DateOfBirth,
+                Email = studentDto.Email,
+                Phone = studentDto.Phone,
+                Address = studentDto.Address,
+                idGrade = studentDto.idGrade
+            };
+
             using (var connection = new SqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
@@ -111,12 +129,25 @@ namespace PruebaFinanzautos.Controllers
 
         // PUT: api/students/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Student student)
+        public async Task<IActionResult> Put(int id, [FromBody] StudentDto studentDto)
         {
-            if (id != student.StudentsId)
+            if (id == null)
             {
                 return BadRequest();
             }
+
+            Student student = new()
+            {
+                StudentsId = studentDto.StudentsId,
+                FirstName = studentDto.FirstName,
+                LastName = studentDto.LastName,
+                DateOfBirth = studentDto.DateOfBirth,
+                Email = studentDto.Email,
+                Phone = studentDto.Phone,
+                Address = studentDto.Address,
+                idGrade = studentDto.idGrade
+            };
+
 
             using (var connection = new SqlConnection(_connectionString))
             {

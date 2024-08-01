@@ -24,7 +24,7 @@ namespace PruebaFinanzautos.Data
 
 
             modelBuilder.Entity<Teacher>()
-                .Property(t => t.Address)
+                .Property(t => t.Adress)
                 .HasMaxLength(64);
 
 

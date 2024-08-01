@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using PruebaFinanzautos.DTOs;
 using PruebaFinanzautos.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace PruebaFinanzautos.Controllers
 {
     [ApiController]
-    [Route("api/[Controller]")]
+    [Route("api/[controller]")]
     public class TeachersController : ControllerBase
     {
         private readonly string _connectionString;
@@ -43,7 +44,7 @@ namespace PruebaFinanzautos.Controllers
                                     Email = reader.GetString(3),
                                     Phone = reader.GetString(4),
                                     Department = reader.GetString(5),
-                                    Address = reader.GetString(6)
+                                    Adress = reader.GetString(6)
                                 });
                             }
                         }
@@ -87,7 +88,7 @@ namespace PruebaFinanzautos.Controllers
                                     Email = reader.GetString(3),
                                     Phone = reader.GetString(4),
                                     Department = reader.GetString(5),
-                                    Address = reader.GetString(6)
+                                    Adress = reader.GetString(6)
                                 };
                             }
                         }
@@ -111,8 +112,20 @@ namespace PruebaFinanzautos.Controllers
 
         // POST: api/teachers
         [HttpPost]
-        public async Task<ActionResult<Teacher>> Post([FromBody] Teacher teacher)
+        public async Task<ActionResult<Teacher>> Post([FromBody] TeacherDto teacherDto)
         {
+
+            Teacher teacher = new()
+            {
+                TeacherId = teacherDto.TeacherId,
+                FirstName = teacherDto.FirstName,
+                LastName = teacherDto.LastName,
+                Email = teacherDto.Email,
+                Phone = teacherDto.Phone,
+                Department = teacherDto.Department,
+                Adress = teacherDto.Adress
+            };
+
             if (teacher == null || string.IsNullOrEmpty(teacher.FirstName) || string.IsNullOrEmpty(teacher.LastName))
             {
                 return BadRequest("Invalid teacher data");
@@ -131,12 +144,21 @@ namespace PruebaFinanzautos.Controllers
                         command.Parameters.AddWithValue("@Email", teacher.Email);
                         command.Parameters.AddWithValue("@Phone", teacher.Phone);
                         command.Parameters.AddWithValue("@Department", teacher.Department);
-                        command.Parameters.AddWithValue("@Adress", teacher.Address);
-                        await command.ExecuteNonQueryAsync();
+                        command.Parameters.AddWithValue("@Adress", teacher.Adress);
+
+                        var result = await command.ExecuteNonQueryAsync();
+                        if (result > 0)
+                        {
+                            // Ideally, you would want to retrieve the new ID if possible, depending on how your procedure is set up.
+                            // For now, we just return the created teacher without an ID.
+                            return CreatedAtAction(nameof(Get), new { id = teacher.TeacherId }, teacher);
+                        }
+                        else
+                        {
+                            return StatusCode(500, "Error creating teacher");
+                        }
                     }
                 }
-                // To properly return the newly created teacher with its ID, consider returning a response with the appropriate status and location.
-                return CreatedAtAction(nameof(Get), new { id = teacher.TeacherId }, teacher);
             }
             catch (SqlException ex)
             {
@@ -150,8 +172,20 @@ namespace PruebaFinanzautos.Controllers
 
         // PUT: api/teachers/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Teacher teacher)
+        public async Task<IActionResult> Put(int id, [FromBody] TeacherDto teacherDto)
         {
+
+            Teacher teacher = new()
+            {
+                TeacherId = teacherDto.TeacherId,
+                FirstName = teacherDto.FirstName,
+                LastName = teacherDto.LastName,
+                Email = teacherDto.Email,
+                Phone = teacherDto.Phone,
+                Department = teacherDto.Department,
+                Adress = teacherDto.Adress
+            };
+
             if (id != teacher.TeacherId)
             {
                 return BadRequest("Teacher ID mismatch");
@@ -171,7 +205,7 @@ namespace PruebaFinanzautos.Controllers
                         command.Parameters.AddWithValue("@Email", teacher.Email);
                         command.Parameters.AddWithValue("@Phone", teacher.Phone);
                         command.Parameters.AddWithValue("@Department", teacher.Department);
-                        command.Parameters.AddWithValue("@Adress", teacher.Address);
+                        command.Parameters.AddWithValue("@Adress", teacher.Adress);
                         await command.ExecuteNonQueryAsync();
                     }
                 }

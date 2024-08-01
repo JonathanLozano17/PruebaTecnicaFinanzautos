@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
 
-namespace PruebaFinanzautos.Models
+namespace PruebaFinanzautos.DTOs
 {
-    public class Teacher
+    public class TeacherDto
     {
         [Key]
         public int TeacherId { get; set; }
@@ -13,8 +12,5 @@ namespace PruebaFinanzautos.Models
         public string Phone { get; set; }
         public string Department { get; set; }
         public string Adress { get; set; }
-
-        public ICollection<Course> Courses { get; set; }
-
     }
 }

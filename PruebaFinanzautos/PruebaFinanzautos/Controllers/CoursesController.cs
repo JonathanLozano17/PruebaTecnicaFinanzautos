@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using PruebaFinanzautos.DTOs;
 using PruebaFinanzautos.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -58,6 +59,7 @@ namespace PruebaFinanzautos.Controllers
             }
         }
 
+
         // GET: api/courses/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Course>> Get(int id)
@@ -103,10 +105,20 @@ namespace PruebaFinanzautos.Controllers
             }
         }
 
+
         // POST: api/courses
         [HttpPost]
-        public async Task<ActionResult<Course>> Post([FromBody] Course course)
+        public async Task<ActionResult<Course>> Post([FromBody] CourseDto courseDto)
         {
+
+            Course course = new Course()
+            {
+                CourseId = courseDto.CourseId,
+                CorseName = courseDto.CorseName,
+                Credits = courseDto.Credits,
+                TeacherId = courseDto.TeacherId
+            };
+
             if (course == null || string.IsNullOrEmpty(course.CorseName))
             {
                 return BadRequest("Invalid course data");
@@ -141,16 +153,27 @@ namespace PruebaFinanzautos.Controllers
 
         // PUT: api/courses/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Course course)
+        public async Task<IActionResult> Put(int id, [FromBody] CourseDto courseDto)
         {
-            if (id != course.CourseId)
+
+            Course course = new Course()
             {
-                return BadRequest("Course ID mismatch");
+                CourseId = courseDto.CourseId,
+                CorseName = courseDto.CorseName,
+                Credits = courseDto.Credits,
+                TeacherId = courseDto.TeacherId
+            };
+
+            if (id == null)
+            {
+                return BadRequest("ID no puede ser null");
             }
+
+            
 
             try
             {
-                using (var connection = new SqlConnection(_connectionString))
+                using (SqlConnection connection = new SqlConnection(_connectionString))
                 {
                     await connection.OpenAsync();
                     using (var command = new SqlCommand("sp_UpdateCourse", connection))
@@ -174,6 +197,7 @@ namespace PruebaFinanzautos.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+
 
         // DELETE: api/courses/5
         [HttpDelete("{id}")]

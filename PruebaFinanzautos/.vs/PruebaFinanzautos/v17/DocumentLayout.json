@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\data\\pruebafinanzautoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\data\\pruebafinanzautoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\dtos\\gradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\dtos\\gradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\data\\pruebafinanzautoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\data\\pruebafinanzautoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|c:\\users\\jonat\\onedrive\\escritorio\\pruebafinanzautos\\pruebafinanzautos\\pruebafinanzautos\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32C4BE7-5C15-4D99-8CE1-9D76631538D1}|PruebaFinanzautos\\PruebaFinanzautos.csproj|solutionrelative:pruebafinanzautos\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +42,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PruebaFinanzautosContext.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
+              "RelativeDocumentMoniker": "PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
+              "RelativeToolTip": "PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:37:02.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "PruebaFinanzautos\\Controllers\\TeachersController.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "PruebaFinanzautos\\Controllers\\TeachersController.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAIwLMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:32:58.519Z"
             },
             {
               "$type": "Document",
@@ -60,114 +85,69 @@
               "RelativeDocumentMoniker": "PruebaFinanzautos\\Models\\Teacher.cs",
               "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Teacher.cs",
               "RelativeToolTip": "PruebaFinanzautos\\Models\\Teacher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T22:06:45.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Student.cs",
-              "RelativeToolTip": "PruebaFinanzautos\\Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T22:06:41.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Grade.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Grade.cs",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\Models\\Grade.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Grade.cs",
-              "RelativeToolTip": "PruebaFinanzautos\\Models\\Grade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T22:06:37.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Course.cs",
-              "RelativeToolTip": "PruebaFinanzautos\\Models\\Course.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T22:06:33.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PruebaFinanzautosContext.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
-              "RelativeToolTip": "PruebaFinanzautos\\Data\\PruebaFinanzautosContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T21:49:03.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AutenticacionController.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\AutenticacionController.cs",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\Controllers\\AutenticacionController.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\AutenticacionController.cs",
-              "RelativeToolTip": "PruebaFinanzautos\\Controllers\\AutenticacionController.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAowIQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T21:45:49.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T00:32:33.427Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Models\\Usuario.cs",
-              "RelativeToolTip": "PruebaFinanzautos\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "PruebaFinanzautos\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "PruebaFinanzautos\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAIAxwGMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T21:44:31.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T00:02:56.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Program.cs",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\Program.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Program.cs",
-              "RelativeToolTip": "PruebaFinanzautos\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAACOAAAA",
+              "DocumentIndex": 4,
+              "Title": "GradesController.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\GradesController.cs",
+              "RelativeDocumentMoniker": "PruebaFinanzautos\\Controllers\\GradesController.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\GradesController.cs",
+              "RelativeToolTip": "PruebaFinanzautos\\Controllers\\GradesController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowHIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T21:39:28.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T23:55:25.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\appsettings.json",
-              "RelativeDocumentMoniker": "PruebaFinanzautos\\appsettings.json",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\appsettings.json",
-              "RelativeToolTip": "PruebaFinanzautos\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-31T21:35:38.451Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "GradeDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\DTOs\\GradeDto.cs",
+              "RelativeDocumentMoniker": "PruebaFinanzautos\\DTOs\\GradeDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\DTOs\\GradeDto.cs",
+              "RelativeToolTip": "PruebaFinanzautos\\DTOs\\GradeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T23:51:53.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "PruebaFinanzautos\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "PruebaFinanzautos\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwHcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T23:36:05.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\DTOs\\CourseDto.cs",
+              "RelativeDocumentMoniker": "PruebaFinanzautos\\DTOs\\CourseDto.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\PruebaFinanzautos\\PruebaFinanzautos\\PruebaFinanzautos\\DTOs\\CourseDto.cs",
+              "RelativeToolTip": "PruebaFinanzautos\\DTOs\\CourseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T23:35:27.54Z"
             }
           ]
         }

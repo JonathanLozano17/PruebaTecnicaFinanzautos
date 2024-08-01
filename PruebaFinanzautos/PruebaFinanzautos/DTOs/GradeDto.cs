@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PruebaFinanzautos.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace PruebaFinanzautos.Models
+namespace PruebaFinanzautos.DTOs
 {
-    public class Grade
+    public class GradeDto
     {
         [Key]
         public int GradeId { get; set; }
@@ -10,7 +11,5 @@ namespace PruebaFinanzautos.Models
         public int CourseID { get; set; }
         public string GradeValue { get; set; }
 
-        public Student Students { get; set; }
-        public Course Course { get; set; }
     }
 }

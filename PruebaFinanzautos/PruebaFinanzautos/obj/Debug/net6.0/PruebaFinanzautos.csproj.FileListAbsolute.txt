@@ -66,3 +66,4 @@ C:\Users\jonat\OneDrive\Escritorio\PruebaFinanzautos\PruebaFinanzautos\PruebaFin
 C:\Users\jonat\OneDrive\Escritorio\PruebaFinanzautos\PruebaFinanzautos\PruebaFinanzautos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\jonat\OneDrive\Escritorio\PruebaFinanzautos\PruebaFinanzautos\PruebaFinanzautos\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\jonat\OneDrive\Escritorio\PruebaFinanzautos\PruebaFinanzautos\PruebaFinanzautos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jonat\OneDrive\Escritorio\PruebaFinanzautos\PruebaFinanzautos\PruebaFinanzautos\obj\Debug\net6.0\PruebaFinanzautos.sourcelink.json
